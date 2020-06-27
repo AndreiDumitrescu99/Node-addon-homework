@@ -1,0 +1,15 @@
+# Node-addon-homework
+
+Pentru a rula, pe Ubuntu, se ruleaza urmatoarele instructiuni:
+
+cmake .
+make
+sudo make install (se vor instala in /usr/lib)
+cd src
+node-gyp configure
+node-gyp build
+npm install
+
+Pentru a testa am pregatit fisierul test.js ce utilizeaza functia mysqrt din C++ pentru a calcula radical din 36:
+
+(din src): node ./test.js
