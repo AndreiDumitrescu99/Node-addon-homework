@@ -1,6 +1,6 @@
 # Node-addon-homework
 
-Pentru a rula, pe Ubuntu, se ruleaza urmatoarele instructiuni:
+Pe Ubuntu, se ruleaza urmatoarele instructiuni:
 
 cmake .
 make
